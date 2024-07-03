@@ -1,0 +1,6 @@
+UnitedAtlasTest:testAllowances() (gas: 81153)
+UnitedAtlasTest:testBurnViaAllowance() (gas: 44915)
+UnitedAtlasTest:testInitialSupply() (gas: 16493)
+UnitedAtlasTest:testSelfBurn() (gas: 32053)
+UnitedAtlasTest:testUnauthorizedBurn() (gas: 18245)
+UnitedAtlasTest:testUsersCantMint() (gas: 13217)
