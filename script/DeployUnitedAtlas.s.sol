@@ -32,12 +32,10 @@ contract DeployUnitedAtlas is Script {
         }
         vm.startBroadcast(deployerKey);
 
-
         address implementation = address(new UnitedAtlas());
         address proxy = UnsafeUpgrades.deployTransparentProxy(
             implementation, ownerAddress, abi.encodeCall(UnitedAtlas.initialize, (ownerAddress))
         );
-
 
         vm.stopBroadcast();
         return proxy;
